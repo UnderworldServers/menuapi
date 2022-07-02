@@ -1,5 +1,17 @@
 # menuapi
 RedM menu
 
-NOT MINE.
-this seems to be from redmerp which was made for fivem by someone else. all credits to the someone else 
+# insatallation
+
+- `ensure menuapi` do not change the name or it wont work
+
+
+# features
+- supports all resolutions
+- menu is responsive width and height 
+- descriptions use now wrapping 
+- text are centralized
+
+# credits
+
+ak_menubased
