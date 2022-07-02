@@ -172,10 +172,14 @@ i {
 	margin-left: 15px;
 }
 
+
 .arrows {
 	width: 25%;
-	float: left;
+	margin-left:80%;
+	margin-top:-24px;
+
 }
+
 
 #item-label {
 	text-align: center
