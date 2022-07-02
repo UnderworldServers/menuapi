@@ -12,8 +12,8 @@
 
 .menu {
 	font-family: "crock", crock, serif;
-	min-width: 500px;
-	height: 50%;
+	min-width: 510px;
+	height: auto;
 	color: #fff;
 	position: absolute;
 	padding: 8px;
@@ -72,9 +72,13 @@
 }
 
 .menu .menu-items {
-	min-height: 275px;
-	max-height: 405px;
+	min-height: 60px;
+	max-height: 540px;
+	/* menu items*/
 	overflow-y: hidden;
+	inline-size: 480px;
+	overflow-wrap: break-word;
+	margin-left: 10px;
 	font-weight: 500;
 }
 
@@ -95,7 +99,6 @@
 	background-position: center;
 	background-size: 100% 110%;
 	font-family: "crock", HapnaSlabSerif-Medium, serif;
-
 }
 
 .menu .menu-items .menu-item.selected {
@@ -111,7 +114,7 @@
 }
 
 #slider-label {
-	width: 40%;
+	width: 50%;
 	float: left;
 	text-align: center;
 }
@@ -125,7 +128,10 @@ i {
 .desciption {
 	text-align: center;
 	font-size: 18px;
-	font-family: sans-serif
+	font-family: sans-serif;
+	inline-size: 420px;
+	margin: auto;
+	overflow-wrap: break-word;
 }
 
 .desciptions {
@@ -172,8 +178,7 @@ i {
 }
 
 #item-label {
-	width: 75%;
-	float: left;
+	text-align: center
 }
 
 
@@ -186,6 +191,7 @@ i {
 .menu.align-top-left {
 	left: 40;
 	top: 40;
+
 }
 
 .menu.align-top {
@@ -246,6 +252,27 @@ i {
 ::-webkit-scrollbar-thumb:hover {
 	background: #1a242d;
 	border-left: 4px solid #272733;
+}
+
+@media (min-width:3840px) {
+
+	.menu {
+
+		width: 670px;
+
+	}
+
+	.menu .menu-items .menu-item {
+		font-size: 25px;
+	}
+
+	.menu .menu-items {
+		inline-size: 580px;
+		overflow-wrap: break-word;
+		margin-left: 30px;
+	}
+
+
 }
 
 /* MADE BY SLIZZARN - DISCORD: slizzarn#1144 GITHUB: https://github.com/slizzarn-fivem */
